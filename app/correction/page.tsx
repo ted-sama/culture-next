@@ -4,7 +4,6 @@ import Trivia from "@/components/game/trivia";
 import {
   Card,
   CardContent,
-  CardDescription,
   CardFooter,
   CardHeader,
   CardTitle,
@@ -80,7 +79,7 @@ export default function Correction() {
         <div className="flex space-x-24">
           <div>
             <Trivia question={currentQuestion} />
-            <h2 className="text-2xl">
+            <h2 className="text-2xl text-center mt-8">
               <span className="opacity-70">Réponse: </span>
               {currentQuestion.answer}
             </h2>

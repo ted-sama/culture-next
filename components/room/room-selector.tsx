@@ -7,7 +7,6 @@ import { toast } from "sonner";
 import {
   Card,
   CardContent,
-  CardDescription,
   CardFooter,
   CardHeader,
   CardTitle,
